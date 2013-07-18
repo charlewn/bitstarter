@@ -13,7 +13,11 @@ app.get('/', function(request, response) {
   response.send(buffer.toString("utf-8"));
 });
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 8080;
+
+//using the css directory
+app.use("/css",express.static(__dirname+"/css"));
+
 app.listen(port, function() {
   console.log("Listening on " + port);
 });

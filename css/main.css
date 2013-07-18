@@ -1,0 +1,138 @@
+/* @override 
+	file:///Users/charles/Algorithms/cs184/bitstarter/index.html
+*/
+
+@media (min-width:980px) {
+	body {
+	
+		padding-top: 60px;
+	}
+	.linediv-l {
+		border-right:1px white solid;
+	}
+	.linediv-r {
+		border-left:1px white solid;
+	}
+}
+
+@media (max-width:920px) {
+	body {
+	
+		padding-top: 60px;
+	}
+	.linediv-l {
+		border-bottom:1px white solid;
+	}
+	.linediv-c {
+		border-bottom:1px white solid;
+	}
+	.linediv-r {
+		border-bottom:1px white solid;
+	}
+}
+
+@media (max-width: 480px) {
+	.copy {
+		padding-top: 2.5% 10%;
+	}
+	.linediv-l {
+		border-bottom:1px white solid;
+	}
+	
+	.linediv-c {
+		border-bottom:1px white solid;
+	}
+	.linediv-r {
+		border-bottom:1px white solid;
+	}
+	
+	
+}
+
+body {
+	padding-top: 60px;
+	background: #f1f1f1;
+}
+
+.heading, .subheading {
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+div.navigation {
+	color: white;
+	font-size: 18px;
+}
+
+.container {
+	width: 960px;
+}
+
+p.lead {
+	padding-top: 1.5%;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.pitch {
+	padding: 2.5% 0%;
+}
+
+.order {
+	padding:2% 0%;
+}
+
+.actions {
+	padding: 2% 0%;
+	background-color: #343434;
+}
+
+.statistics h3, .statistics p {
+	color: white;
+	text-align: center;
+	
+}
+
+.copy {
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: justify;
+}
+
+.asset {
+	padding: 2.5% 0%;
+}
+
+.docs-example p {
+padding: 4% 2.5%;
+background-color: #fff;
+border: 1px solid #ddd;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.video, .myproduct, .order, .social .statistics { 
+	text-align: center;
+}
+
+.footer {
+	color: #ccc;
+	text-align: center;
+}
+
+.footer p {
+	font-size: 11px;
+}
+
+.footer a {
+	color: #ccccff;
+}
+
+.accordion-heading {
+	background: #fff;
+}
+
+.accordion-inner {
+	background: #fff;
+}
